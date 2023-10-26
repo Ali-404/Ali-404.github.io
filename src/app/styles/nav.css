@@ -1,11 +1,9 @@
-.container{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 3rem;
-    /* flex-wrap: nowrap; */
-    
+
+
+.container.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .container > img {
@@ -48,3 +46,4 @@
     background-color: #5CC4C4;
     
 }
+

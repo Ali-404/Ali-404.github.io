@@ -1,9 +1,9 @@
-import styles from '../styles/nav.css'
+import '../styles/nav.css'
 
 
 export default function Nav() {
   return (
-    <div className='container'>
+    <nav className='container nav'>
         <img src='ali.png'  />
 
         <div className='links'>
@@ -16,6 +16,6 @@ export default function Nav() {
 
         </div>
 
-    </div>
+    </nav>
   )
 }

@@ -1,0 +1,38 @@
+
+/* left side */
+
+.cv .first {
+    /* min-width: 40%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cv .first img {
+    border-radius: 100%;
+    padding: 5px;
+    outline: 5px solid #5CC4C4;
+    margin-bottom: 20px;
+    
+}
+
+.cv .first a * {
+    transition: 0.3s ease-in-out;
+    margin-inline: 5px;
+}
+
+.cv a:hover *{
+    color: #5CC4C4;
+    transform: scale(1.1);
+    
+}
+
+.cv .secand {
+   max-width: 50%;
+}
+
+.cv .secand * {
+    margin-bottom: 10px;
+}

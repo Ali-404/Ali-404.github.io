@@ -6,6 +6,38 @@
 }
 
 body {
-  background-color: #202833;
+  /* min-height: 100vh; */
+  background: rgb(0,78,94);
+  background: linear-gradient(124deg, rgba(0,78,94,1) 0%, rgba(32,40,51,1) 55%);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #eee;
+}
+
+
+.mainContainer{
+  padding: 0 2rem;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  /* flex-wrap: nowrap; */
+  
+}
+
+
+a {
+  cursor: pointer;
 }
