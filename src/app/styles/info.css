@@ -1,4 +1,4 @@
-.container {
+.container.infos {
     display: flex; 
     align-items: center;
     justify-content: space-between;
@@ -13,16 +13,16 @@
     min-width: 12rem;
 }
 
-.container .lft {
+.container.infos .lft {
     max-width: 60%;
 }
 
-.container .lft  > * {
+.container.infos .lft  > * {
     margin: 10px 0;
 }
 
 
-.container .lft button {
+.container.infos .lft button {
     /* max-width: 50%; */
     color: #5CC4C4;
     border-color: #5CC4C4;

@@ -1,11 +1,5 @@
 
 
-.container.nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .container > img {
     max-width: 4.2em;
 }

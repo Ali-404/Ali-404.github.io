@@ -12,7 +12,9 @@ export default function Home() {
       <div className='section'>
         <Info />
       </div>
-      <Cv  className='section'/>
+      <div className='section'>
+        <Cv />
+      </div>
     </main>
   )
 }
