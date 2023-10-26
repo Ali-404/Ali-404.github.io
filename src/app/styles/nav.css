@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    
+}
+
+.container > img {
+    max-width: 4.2em;
+}
+
+.container > .links {
+    
+}
+
+.container > .links a {
+    margin: 0 1.3rem;
+    color: #eee;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.links > a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    padding: 0px;
+    background-color: #eee;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.links > a:hover{
+    color: #5CC4C4;
+}
+
+.links > a:hover::after {
+    width: 100%;
+    padding: 1px;
+    background-color: #5CC4C4;
+    
+}
