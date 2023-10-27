@@ -24,7 +24,7 @@
 }
 
 
-.container.infos .lft button {
+.container.infos .lft a {
     /* max-width: 50%; */
     color: #5CC4C4;
     border-color: #5CC4C4;

@@ -8,11 +8,11 @@ export default function Nav() {
 
         <div className='links'>
 
-            <a>Home</a>
-            <a>Skills</a>
-            <a>Projects</a>
-            {/* <a>Education</a> */}
-            <a>Contact</a>
+            <a href='#home'>Home</a>
+            <a href='#cv'>Information</a>
+            <a href='#skills'>Skills</a>
+            <a href='#projects'>Projects</a>
+            <a href='#contact'>Contact</a>
 
         </div>
 
