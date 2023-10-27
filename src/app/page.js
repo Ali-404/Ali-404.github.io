@@ -3,6 +3,7 @@
 import Nav from './components/nav'
 import Info from './components/info'
 import Cv from './components/cv'
+import Skills from './components/skills'
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
       <div className='section'>
         <Cv />
+      </div>
+      <div className='section'>
+        <Skills />
       </div>
     </main>
   )

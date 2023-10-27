@@ -1,3 +1,5 @@
+
+
 .container.infos {
     display: flex; 
     align-items: center;
@@ -14,7 +16,7 @@
 }
 
 .container.infos .lft {
-    max-width: 60%;
+    /* max-width: 60%; */
 }
 
 .container.infos .lft  > * {

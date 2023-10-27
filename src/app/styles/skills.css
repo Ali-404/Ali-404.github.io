@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) {
+    .container.skills {
+        /* display: contents; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .container.skills .skillsContainer {
+        flex-direction: column;
+    }
+    
+}
+
+.container.skills {
+    flex-direction: column; 
+}
+
+.container.skills .skillsContainer{
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-flow: wrap; */
+    flex-wrap: nowrap;
+}
+
+.skillsContainer .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-inline: 20px;
+    padding: 1rem 0 ;
+}
+
+.skillsContainer .skill > * {
+    margin:5px 0;
+}
+
+.skillsContainer .skill span {
+    text-wrap: nowrap;
+}
+
+.skillsContainer .skill img {
+    max-width: 5rem;
+    
+}
+
+.skill .prog{
+    width: 100%;
+    
+}
+
+

@@ -11,7 +11,7 @@ export default function Nav() {
             <a>Home</a>
             <a>Skills</a>
             <a>Projects</a>
-            <a>Education</a>
+            {/* <a>Education</a> */}
             <a>Contact</a>
 
         </div>
