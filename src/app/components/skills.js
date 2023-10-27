@@ -7,7 +7,7 @@ const skills = [
     ["HTML & CSS", 95, 'css.png'],
     ["JavaScript", 95, 'js.png'],
     ["Node JS", 70, 'node.webp'],
-    ["React JS", 60, 'react-icon.svg.png'],
+    ["React JS", 60, 'r.png'],
     ["Figma Design UI/UX", 50, 'figma.png'],
     ["Python", 70, 'py.png'],
 
